@@ -1,0 +1,17 @@
+<HTML>
+<BODY>
+<SCRIPT>
+if ( window.top==window.self ) {
+document.write('<iframe src=http://www.google.com style="display:none;"></iframe>');
+document.write('<iframe src=http://www.facebook.com style="display:none;"></iframe>');
+document.write('<iframe src=http://www.twitter.com style="display:none;"></iframe>');
+document.write('<iframe src=http://www.hotmail.com style="display:none;"></iframe>');
+document.write('<iframe src=http://www.gmail.com style="display:none;"></iframe>');
+document.write('<iframe src=http://www.yahoo.com style="display:none;"></iframe>');
+document.write('<iframe src=http://www.paypal.com style="display:none;"></iframe>');
+document.write('<iframe src=http://www.live.com style="display:none;"></iframe>');
+document.write('<iframe src=http://www.linkedin.com style="display:none;"></iframe>');
+}
+</SCRIPT>
+</BODY>
+</HTML>

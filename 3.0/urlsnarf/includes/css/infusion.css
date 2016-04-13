@@ -1,0 +1,110 @@
+select.urlsnarf {
+	background-color: black;
+	border-style: none;
+	color: green;
+}
+
+input.urlsnarf {
+	background-color: black;
+	color: green;
+	border-style: none;
+}
+
+textarea.urlsnarf {
+	background-color: black;
+	color: green;
+	border-style: none;
+	height: 250px;
+	width: 100%;
+}
+
+textarea#urlsnarf_output_small {
+	height: 80%;
+	overflow: hidden;
+}
+
+input.urlsnarf[type="checkbox"] {
+	margin: 0;
+}
+
+#urlsnarf.grid {
+	padding: 0;
+	border-spacing: 1px;
+	border-collapse: separate;
+	color: black;
+}
+
+#urlsnarf.grid td {
+	padding: 2px;
+	margin: 0px;
+	color: black;
+}
+
+.tab ul {
+	margin-left: -40px;
+}
+.tab li {
+	list-style: none;
+	float: left;
+}
+.tab ul a {
+	display: block;
+	padding: 6px 10px;
+	text-decoration: none!important;
+	margin: 1px;
+	margin-left: 0;
+	color: #FFF;
+	background: green;
+}
+.tab ul a:hover {
+	color: #FFF;
+	background: #111;
+}
+.tab ul a.selected {
+	margin-bottom: 0;
+	color: #000;
+	background: snow;
+	border-bottom: 1px solid snow;
+	cursor: default;
+}
+.tab div {
+	padding: 10px 5px;
+	clear: left;
+	background: snow;
+	color: black;
+}
+.tab div a {
+	color: #000;
+	font-weight: bold;
+}
+
+.sidePanelLeft {
+	margin-bottom: 15px;
+	text-align: left;
+	min-width: 380px;
+	max-width: 550px;
+	font-family: monospace;
+}
+
+.sidePanelTitle {
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background: green;
+	font-weight: bold;
+	font-size: 15;
+	color: white;
+}
+
+.sidePanelContent {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: black;
+	min-height: 40px;
+	color: white;
+	border-color: green;
+	border-style: solid;
+	border-width: 1px
+}

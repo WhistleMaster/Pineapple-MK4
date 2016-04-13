@@ -1,0 +1,106 @@
+* {
+	font-family: courier;
+	font-size: 13px;
+}
+
+#version {
+	text-align: right;
+	margin: 5px 10px -12px;
+}
+
+select {
+	background-color: black;
+	border-style: none;
+	color: white;
+}
+
+input {
+	font-family: courier;
+	font-weight: bold;
+	background-color: black;
+	color: gray;
+	border-style: dotted;
+}
+
+textarea {
+	background-color: black;
+	color: white;
+	border-style: dashed;
+	height: 250px;
+	width: 100%;
+}
+
+.grid {
+	padding: 0;
+	border-spacing: 1px;
+	border-collapse: separate;
+	color: black;
+}
+.grid td {
+	padding: 2px;
+	margin: 0px;
+	color: black;
+}
+
+.tab ul {
+	margin-left: -40px;
+}
+.tab li {
+	list-style: none;
+	float: left;
+}
+.tab ul a {
+	display: block;
+	padding: 6px 10px;
+	text-decoration: none!important;
+	margin: 1px;
+	margin-left: 0;
+	color: #FFF;
+	background: green;
+}
+.tab ul a:hover {
+	color: #FFF;
+	background: #111;
+}
+.tab ul a.selected {
+	margin-bottom: 0;
+	color: #000;
+	background: snow;
+	border-bottom: 1px solid snow;
+	cursor: default;
+}
+.tab div {
+	padding: 10px 5px;
+	clear: left;
+	background: snow;
+	width: 80%;
+	color: black;
+}
+.tab div a {
+	color: #000;
+	font-weight: bold;
+}
+
+table.fields {
+	color: black;
+}
+.fields td {
+	padding: 2px 0;
+}
+.fields td.title {
+	width: 150px;
+}
+.fields td.title.indent1 {
+	padding: 1px 15px 1px 0;
+}
+.fields td.title.indent2 {
+	padding: 1px 5px 1px 10px;
+	vertical-align: top;
+}
+.fields .spacer {
+	height: 8px;
+}
+.fields td.module_content {
+	width: 585px;
+	vertical-align: top;
+}

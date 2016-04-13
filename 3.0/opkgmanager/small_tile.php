@@ -1,0 +1,2 @@
+Installed Packages <font color="lime"><?php echo exec("opkg list-installed | wc -l"); ?></font><br/>
+Available Packages <font color="lime"><span id="pack"><?php echo exec("opkg list | wc -l"); ?></span></font>

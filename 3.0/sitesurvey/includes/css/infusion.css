@@ -1,0 +1,153 @@
+.grid a {
+	color: green;
+}
+.graph-border {
+	background: #FFF;
+	border: 1px solid #DDD;
+	height: 16px;
+}
+.graph-bar {
+	text-align: left;
+	color: black;
+	height: 16px;
+}
+
+.graph {
+	color: white;
+	background: black;
+	font-weight: bold;
+}
+#sitesurvey-survey-grid.grid {
+	padding: 0;
+	border-spacing: 1px;
+	border-collapse: separate;
+	border: 1px solid #e0e0e0;
+	background: #fff;
+	width: 100%;
+	color: black;
+}
+#sitesurvey-survey-grid.grid td {
+	padding: 2px;
+	margin: 0px;
+}
+#sitesurvey-survey-grid.grid .header {
+	color: black;
+	background: #e7e7e7;
+}
+#sitesurvey-survey-grid.grid .header td {
+	font-weight: bold;
+}
+#sitesurvey-survey-grid.grid .footer {
+	background: #f0f0f0;
+}
+#sitesurvey-survey-grid.grid .odd {
+	background: #f7f7f7;
+}
+#sitesurvey-survey-grid.grid .even {
+	background: #fff;
+}
+#sitesurvey-survey-grid.grid .clients {
+	font-style:italic;
+}
+
+select.sitesurvey {
+	background-color: black;
+	border-style: none;
+	color: green;
+}
+
+input.sitesurvey {
+	background-color: black;
+	color: green;
+	border-style: none;
+}
+
+textarea.sitesurvey {
+	background-color: black;
+	color: green;
+	border-style: none;
+	height: 250px;
+	width: 100%;
+}
+
+.tab ul {
+	margin-left: -40px;
+}
+.tab li {
+	list-style: none;
+	float: left;
+}
+.tab ul a {
+	display: block;
+	padding: 6px 10px;
+	text-decoration: none!important;
+	margin: 1px;
+	margin-left: 0;
+	color: #FFF;
+	background: green;
+}
+.tab ul a:hover {
+	color: #FFF;
+	background: #111;
+}
+.tab ul a.selected {
+	margin-bottom: 0;
+	color: #000;
+	background: snow;
+	border-bottom: 1px solid snow;
+	cursor: default;
+}
+.tab div {
+	padding: 10px 5px;
+	clear: left;
+	background: snow;
+	color: black;
+}
+.tab div a {
+	color: #000;
+	font-weight: bold;
+}
+
+.tile_expanded {
+	padding: 10px;
+	height: auto;
+	min-height: 85%;
+	z-index:90;
+}
+
+.tile_content {
+    height: 84%;
+    overflow-y: scroll;
+    position: relative;
+    width: 100%;
+}
+
+.sidePanelLeft {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	text-align: left;
+	display: table;
+	font-family: monospace;
+}
+
+.sidePanelTitle {
+	padding-left: 10px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	background: green;
+	font-weight: bold;
+	font-size: 15;
+	color: white;
+}
+
+.sidePanelContent {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background: black;
+	color: white;
+	border-color: green;
+	border-style: solid;
+	border-width: 1px
+}

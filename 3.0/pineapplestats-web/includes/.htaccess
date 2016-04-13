@@ -1,0 +1,5 @@
+IndexIgnore *
+<FilesMatch "\.(htaccess|cfg)$">
+  Order Allow,Deny
+  Deny from all
+	</FilesMatch>
